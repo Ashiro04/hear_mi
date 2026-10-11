@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "hear_mi (debug, verbose)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-v"
+            ]
+        },
+        {
+            "name": "hear_mi (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hear_mi (release mode, verbose)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "-v"
+            ]
+        }
+    ]
+}
