@@ -15,3 +15,7 @@ class NetworkFailure extends Failure {
 class UnexpectedFailure extends Failure {
   const UnexpectedFailure(super.message);
 }
+
+class PermissionFailure extends Failure {
+  const PermissionFailure(super.message);
+}

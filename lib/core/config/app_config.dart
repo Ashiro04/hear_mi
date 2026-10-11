@@ -1,10 +1,12 @@
+enum DataSourceType { mock, local, remote }
+
 class AppConfig {
   AppConfig._();
 
-  // false quand l'API sera prête
-  static const bool useMockTracks = true;
+  // mock = titres de démo, local = musique du téléphone, remote = API .NET
+  static const DataSourceType trackSource = DataSourceType.local;
+  static const bool useMockFavorites = true;
 
-  // 10.0.2.2 = localhost du PC depuis l'émulateur Android
   static const String baseUrl = String.fromEnvironment(
     'API_URL',
     defaultValue: 'http://10.0.2.2:5000',

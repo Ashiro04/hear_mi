@@ -44,6 +44,8 @@ dependencies:
   just_audio: ^0.10.6
   cached_network_image: ^4.0.4
   stream_transform: ^2.1.2
+  on_audio_query: ^2.9.0
+  permission_handler: ^13.0.2
 
 dev_dependencies:
   flutter_test:
